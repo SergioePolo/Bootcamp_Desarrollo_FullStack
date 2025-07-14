@@ -1,0 +1,1 @@
+Welcome to the compilation of my bootcamp journey! This repository contains all completed projects, in-class coding exercises, and mentorship session code. You'll find everything structured neatly within folders, organized by week of the course.
