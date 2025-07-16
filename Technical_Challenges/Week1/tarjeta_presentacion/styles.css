@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #F8F8F8;
+}
+
+header{
+    background-color: #333333 ;
+    margin-bottom: 20px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.3) ;
+    padding: 10px;
+}
+
+footer{
+    background-color: #333333;
+    padding: 5px;
+}
+
+h1{
+    font-family: "Michroma", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #F8F8F8;
+    padding: 2px;
+    text-align: center;
+}
+
+.personalized_P_tag{
+    text-align: center;
+    color: #F8F8F8;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: 'MW QUOIN', sans-serif;
+}
+
+h2{
+    color: #333333 ;
+    font-family: "Michroma", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 5px;
+}
+
+h3{
+    color: #333333 ;
+    font-family: "Michroma", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    padding: 2px;
+}
+
+p{
+    color: #333333 ;
+    font-family: "Winky Rough", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin: 5px;
+}
+
+main{
+    padding: 10px;
+}
+
+a{
+    color: #007bff;
+    font-family: 'MW QUOIN', sans-serif;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+a:hover{
+    text-shadow: 2px 2px 5px #007bff;
+    text-decoration: underline;
+}
+
+li{
+    color: #333333 ;
+    font-family: "Winky Rough", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+hr{
+    border: none;
+    height: 2px;
+    background-color: #cfcccc;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.links_container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    list-style-type: circle;
+    margin-left: 24px;
+}
+
+.container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
