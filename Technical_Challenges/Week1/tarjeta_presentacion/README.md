@@ -1,0 +1,2 @@
+Personal Presentation Card
+This project is a personal web-based presentation card, designed to showcase my professional skills, experience, and contact information in a concise and accessible format. It serves as an online equivalent of a business card or a brief, interactive resume.
