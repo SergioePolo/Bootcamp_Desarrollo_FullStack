@@ -1,0 +1,59 @@
+/*CONDICIONES INICIALES DE TODO EL PROYECTO LAS CUALES DE PUEDEN USAR EN TODO EL DOCUMENTO - UN ESTILO DE VARIABLES Y ESTILOS GLOBALES*/
+@import url('https://fonts.cdnfonts.com/css/freshbot');
+@import url('https://fonts.cdnfonts.com/css/nemoy');
+@import url('https://fonts.cdnfonts.com/css/f-firebrand');
+@import url('https://fonts.cdnfonts.com/css/zilla-slab');
+
+:root{
+    --color-fondo: #F6F7F4;
+    --color-texto: #2E3952;
+    --color-enfasis1: #7185BE;
+    --color-enfasis2: #CCD6ED;
+    --tamano-titulos: 35px;
+}
+
+/********************SELECTOR UNIVERSAL*********************/
+*{
+    margin: 0;
+}
+
+body{
+    /*font-family: 'Nemoy', sans-serif;*/
+    /*font-family: 'Freshbot', sans-serif;*/
+    /*font-family: 'f Firebrand', sans-serif;*/
+    font-family: 'Zilla Slab', sans-serif;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    /*quitar scroll horizontal*/
+    overflow-x: hidden;
+}
+
+/*---------------------------------------------------------*/
+
+/*************************HEADER***************************/
+header{
+    width: 100vw; /*viewport width*/
+    height: 10vh; /*viewport heigth*/
+    background-color: var(--color-enfasis2);
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.lista{
+    display: flex;
+    gap: 30px;
+}
+
+.logo{
+    width: 90px;
+    height: 90px;
+    padding-left: 10px;
+}
+/*************************MAIN*****************************/
+
+/*************************FOOTER*****************************/
