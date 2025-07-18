@@ -9,23 +9,25 @@
 <body>
     <header>
         <nav>
-            <img class="logo" src="https://images.prismic.io/intuzwebsite/4b74ec65-7ee2-4134-a612-6d96a6bd9278_Web+Development.png?auto=compress,format" alt="web development design">
+            
             <!--Listas ordenadas-->
             <ol class="lista">
-                <li>Qué es HTML</li>
-                <li>Semántica</li>
-                <li>Etiquetas básicas</li>
+                <a href="#que_es_html"><li>Qué es HTML</li></a>
+                <a href="#semantica"><li>Semántica</li></a>
+                <a href="#etiquetas_basicas"><li>Etiquetas básicas</li></a>
                 
             </ol>
+            <a href="./index.html"><img class="logo" src="https://images.prismic.io/intuzwebsite/4b74ec65-7ee2-4134-a612-6d96a6bd9278_Web+Development.png?auto=compress,format" alt="web development design"></a>
             <!--Listas desordenadas-->
             <ul class="lista">
-                <li>Formularios</li>
-                <li>Tablas</li>
-                <li>Enlaces</li>
+                <a href="#formularios"><li>Formularios</li></a>
+                <a href="#tablas"><li>Tablas</li></a>
+                <a href="#enlaces"><li>Enlaces</li></a>
             </ul>
         </nav>
     </header>
-
+<main>
+    <h1>Fundamentos desarrollo web: HTML</h1>
     <section class="contenedor" id="que_es_html">
         <h2>¿Qué es HTML?</h2>
         <p>Lenguaje de marcado que estructura el contenido de una página web. Basado en etiqutas las cuales pueden ser semánticas o no semánticas.</p>
@@ -33,7 +35,7 @@
     </section>
     <section class="contenedor" id="semantica">
         <h2>Semantica en HTML</h2>
-        <img src="https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/01/html-vs-html5.webp" alt="diagrama semantica">
+        <img class="semantica" src="https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/01/html-vs-html5.webp" alt="diagrama semantica">
     </section>
     <section class="contenedor" id="etiquetas_basicas">
         <h2>Etiquetas básicas de HTML</h2>
@@ -98,14 +100,16 @@
             </form>
         </div>
     </section>
-    <section class="contenedor" id="tablas"></section>
-    <section class="contenedor" id="enlaces"></section>
-    <main>
+    <section class="contenedor" id="tablas">
+        <h2>Tables</h2>
+    </section>
+    <section class="contenedor" id="enlaces">
+        <h2>Enlaces en HTML</h2>
+        <p>Nos permiten navegar a diferentes páginas web que esten en internet o no, nos pemite navegar a otras secciones el mismo sitio/página, nos permite descargar archivos </p>
+        <span> `< a >< /a >`</span>
+    </section>
+    
 
     </main>
-
-    <footer>
-
-    </footer>
 </body>
 </html>

@@ -25,16 +25,18 @@ body{
     background-color: var(--color-fondo);
     color: var(--color-texto);
     /*quitar scroll horizontal*/
-    overflow-x: hidden;
+    overflow-x: hidden;    
 }
 
 /*---------------------------------------------------------*/
 
 /*************************HEADER***************************/
 header{
-    width: 100vw; /*viewport width*/
+    width: 98vw; /*viewport width*/
     height: 10vh; /*viewport heigth*/
     background-color: var(--color-enfasis2);
+    margin: 10px;
+    border-radius: 50px;
 }
 
 nav{
@@ -50,10 +52,44 @@ nav{
 }
 
 .logo{
-    width: 90px;
-    height: 90px;
+    width: 125px;
+    height: 84px;
     padding-left: 10px;
 }
-/*************************MAIN*****************************/
+a{
+    color: var(--color-fondo);
+    text-decoration: none;
+}
 
+a:hover{
+    text-decoration: underline;
+}
+/*************************MAIN*****************************/
+main{
+    margin: 10%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+.contenedor{
+    background-color: var(--color-enfasis2);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    gap: 20px;
+}
+
+.semantica{
+    width: 50%;
+    border-radius: 15px;
+}
 /*************************FOOTER*****************************/
