@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Control de acceso</title>
+</head>
+<body>
+    <h1>Bienvenido al sistema de control de acceso</h1>
+    <p>Para acceder al evento necesitamos verificar cierta información</p>
+    <form id="accessForm" action="#">
+        <label for="name">Ingrese su nombre:</label>
+        <input type="text" name="name" placeholder="Nombre" id="userName"/>
+        
+        <label for="age">Ingrese su edad:</label>
+        <input type="number" name="age" placeholder="Edad" id="age"/>
+        
+        <p>¿Cuenta con invitación?</p>
+        <input type="radio" id="yes" name="invitation" value="true"/>
+        <label for="yes">Sí</label>
+
+        <input type="radio" id="no" name="invitation" value="false"/>
+        <label for="no">No</label>
+        
+        <button type="submit">Validar invitación</button>
+    </form>
+
+    <p id="response"></p>
+    <script src="./index.js"></script>
+</body>
+</html>
