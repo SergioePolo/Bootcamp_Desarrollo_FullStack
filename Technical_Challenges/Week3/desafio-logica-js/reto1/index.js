@@ -1,19 +1,19 @@
-document.getElementById("accessForm").addEventListener("submit", function (event){
+document.getElementById('accessForm').addEventListener('submit', function (event){
     event.preventDefault();
-    let response = "";
-    const name = document.getElementById("userName").value;
+    let response = '';
+    const name = document.getElementById('userName').value;
 
-    let age = document.getElementById("age").value;
+    let age = document.getElementById('age').value;
     age = parseInt(age);
 
-    const invitation = document.querySelector('input[name="invitation"]:checked');
+    const invitation = document.querySelector('input[name='invitation']:checked');
 
     if(!invitation){
-        alert("Por favor selecciona si posees una invitación al evento");
+        alert('Por favor selecciona si posees una invitación al evento');
         return;
     }
     
-    const hasInvitation = invitation.value === "true";
+    const hasInvitation = invitation.value === 'true';
     
     if(age >= 18 && hasInvitation == true){
         response = `Bienvenido ${name} es un placer tenerte con nosotros`;
@@ -25,5 +25,5 @@ document.getElementById("accessForm").addEventListener("submit", function (event
         response = `Lo lamento ${name} solamente personas de 18 años en adelante pueden ingresar al evento`;
     }
     
-    document.getElementById("response").innerHTML = response;
+    document.getElementById('response').innerHTML = response;
 })
